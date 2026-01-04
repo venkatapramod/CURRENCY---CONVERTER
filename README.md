@@ -20,6 +20,18 @@ Real-time exchange rates (updated daily)
 
 Search by country name, currency code, or currency name
 
+📊 Project Impact:
+
+Your currency converter can:
+
+Help travelers with currency calculations
+
+Assist traders with crypto conversions
+
+Serve as a learning tool for students
+
+Be used by businesses for quick conversions
+
 🎨 Beautiful User Interface
 
 🌗 Dark / Light Mode with smooth transitions

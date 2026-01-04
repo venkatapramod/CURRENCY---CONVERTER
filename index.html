@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CurrencyFlow | Converter</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+<div class="theme-toggle-container">
+  <button class="theme-toggle" onclick="toggleTheme()">
+    <i class="fas fa-moon"></i>
+  </button>
+</div>
+
+<div class="container">
+  <div class="header">
+    <div class="logo">
+      <i class="fas fa-exchange-alt"></i>
+      <h1>CurrencyFlow</h1>
+    </div>
+    <p class="subtitle">Real-time exchange rates</p>
+  </div>
+  
+  <div class="input-section">
+    <div class="amount-input-container">
+      <i class="fas fa-money-bill-wave"></i>
+      <input type="number" id="amount" placeholder="0.00" value="100" step="0.01">
+      <div class="input-label">Amount</div>
+    </div>
+  </div>
+  
+  <div class="conversion-section">
+    <div class="currency-selector" id="fromCurrency">
+      <div class="selector-header">
+        <div class="selector-label">From</div>
+        <div class="selector-value" id="fromValue"></div>
+      </div>
+      <div class="currency-box" id="fromDropdown"></div>
+    </div>
+    
+    <div class="swap-container">
+      <button class="swap" id="swapBtn" onclick="swap()">
+        <i class="fas fa-arrow-right-arrow-left"></i>
+      </button>
+    </div>
+    
+    <div class="currency-selector" id="toCurrency">
+      <div class="selector-header">
+        <div class="selector-label">To</div>
+        <div class="selector-value" id="toValue"></div>
+      </div>
+      <div class="currency-box" id="toDropdown"></div>
+    </div>
+  </div>
+  
+  <div class="result-section">
+    <div class="result-container">
+      <div class="result-amount" id="converted"></div>
+      <div class="rate-info" id="rateInfo"></div>
+    </div>
+    <button class="convert-btn" onclick="convert()">
+      <i class="fas fa-sync-alt"></i> Convert Now
+    </button>
+  </div>
+  
+  <div class="footer">
+    <div class="update-info">
+      <i class="fas fa-clock"></i> <span id="updateTime">Loading rates...</span>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

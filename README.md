@@ -22,7 +22,7 @@ Search by country name, currency code, or currency name
 
 📊 Project Impact:
 
-Your currency converter can:
+Currency converter can:
 
 Help travelers with currency calculations
 

@@ -88,7 +88,7 @@ Toggle theme 🌙 / 🌞
 
 Swap currencies ⇄
 
-🛠️ Technologies Used Technologies used: 
+🛠️ Technologies Used : 
 
 HTML5: Semantic structure & markup Latest
 
